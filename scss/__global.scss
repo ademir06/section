@@ -1,0 +1,65 @@
+@import "_mixins";
+@import "_veriables";
+
+.body {
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+}
+
+.scrolltoop-btn.active {
+  right: 10px;
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
+  border-radius: 30px;
+}
+
+h1::selection {
+  background: white;
+  color: red;
+}
+
+p::selection {
+  background: black;
+  color: red;
+}
+
+span::selection {
+  background: white;
+  color: black;
+}

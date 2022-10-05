@@ -1,0 +1,145 @@
+.body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+}
+
+.scrolltoop-btn.active {
+  right: 10px;
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
+  border-radius: 30px;
+}
+
+h1::selection {
+  background: white;
+  color: red;
+}
+
+p::selection {
+  background: black;
+  color: red;
+}
+
+span::selection {
+  background: white;
+  color: black;
+}
+
+#yourtv {
+  background: #1F1E24;
+  height: 100%;
+}
+#yourtv .container .content__yourtv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#yourtv .container .content__yourtv h1 {
+  color: #ffffff;
+}
+#yourtv .container .content__yourtv p {
+  color: #ffffff;
+}
+#yourtv .container .content__yourtv span {
+  color: #ffffff;
+}
+#yourtv .container .content__yourtv .yourtv {
+  display: flex;
+  align-items: end;
+}
+#yourtv .container .content__yourtv .yourtv button {
+  background: yellow;
+  font-size: var(--fs-11);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 90px;
+  height: 200px;
+  border-radius: 6px;
+  margin: 0 0 0 20px;
+}
+#yourtv .container .content__yourtv .yourtv button a {
+  color: black;
+  transform: rotate(90deg);
+  margin: 53px 4px 10px 0;
+}
+#yourtv .container .content__yourtv .yourtv__one span {
+  position: relative;
+  margin: 0 0 0 70px;
+}
+#yourtv .container .content__yourtv .yourtv__one span:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  top: 8px;
+  left: -65px;
+  background: yellow;
+  border-radius: 2px;
+}
+#yourtv .container .content__yourtv .yourtv__one h1 {
+  margin: 12px 0;
+}
+#yourtv .container .content__yourtv .yourtv__tree {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+#yourtv .container .content__yourtv .yourtv__tree--one {
+  background: #423b3b;
+  border-radius: 100px;
+  font-size: 30px;
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 20px;
+  color: white;
+  transition: 0.4s;
+  border: 1px dashed yellow;
+}
+#yourtv .container .content__yourtv .yourtv__tree--one:hover {
+  background: yellow;
+  color: black;
+}
+#yourtv .container .content__yourtv .yourtv__tree--one i {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
